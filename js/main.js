@@ -46,12 +46,35 @@ var planets = [
 		image: "img/uranus.png",
 		description: "The seventh planet from the sun with the third largest diameter in our solar system, Uranus is very cold and windy. The ice giant is surrounded by 13 faint rings and 27 small moons as it rotates at a nearly 90-degree angle from the plane of its orbit. This unique tilt makes Uranus appear to spin on its side, orbiting the sun like a rolling ball."
 	},
-{
-	name: "venus",
-	image: "img/venus.png",
-	description: "Second planet from the Sun and our closest planetary neighbor, Venus is similar in structure and size to Earth, but it is now a very different world. Venus spins slowly in the opposite direction most planets do. Its thick atmosphere traps heat in a runaway greenhouse effect, making it the hottest planet in our solar system—with surface temperatures hot enough to melt lead. "
+	{
+		name: "venus",
+		image: "img/venus.png",
+		description: "Second planet from the Sun and our closest planetary neighbor, Venus is similar in structure and size to Earth, but it is now a very different world. Venus spins slowly in the opposite direction most planets do. Its thick atmosphere traps heat in a runaway greenhouse effect, making it the hottest planet in our solar system—with surface temperatures hot enough to melt lead. "
+	}
+]
+
+function searchGo() {
+	for (i = 0; i < planets[i].length; i++) {
+		var mainDiv = document.getElementById("addHere")
+		var h2 = document.createElement("h1")
+			mainDiv.appendChild(h2)
+		var imgDiv. = document.createElement("imgDiv")
+			mainDiv.appendChild(imgDiv)
+		var imgPlanet = document.createElement("img")
+			imgDiv.appendChild(imgPlanet)
+		var 
+	}
 }
 
 
 
-]
+
+
+
+
+
+
+
+
+
+
