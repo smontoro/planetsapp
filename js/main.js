@@ -62,7 +62,8 @@ function searchGo() {
 			mainDiv.appendChild(imgDiv)
 		var imgPlanet = document.createElement("img")
 			imgDiv.appendChild(imgPlanet)
-		var 
+		var planetText = document.createElement("p")
+			mainDiv.appendChild("planetText")
 	}
 }
 
