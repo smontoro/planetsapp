@@ -27,7 +27,7 @@ var planets = [
 		description: "The fifth largest moon in the solar system, Earth's moon is the only place beyond Earth where humans have set foot. The brightest and largest object in our night sky, the moon makes Earth a more livable planet by moderating our home planet's wobble on its axis, leading to a relatively stable climate. It also causes tides, creating a rhythm that has guided humans for thousands of years. The moon was likely formed after a Mars-sized body collided with Earth."
 	},
 	{
-		name: "neptune"
+		name: "neptune",
 		image: "img/neptune.png",
 		description: "Neptune's dark vortices are high-pressure systems and are usually accompanied by bright companion clouds, which are also now visible on the distant planet. The bright clouds form when the flow of ambient air is perturbed and diverted upward over the dark vortex, causing gases to likely freeze into methane ice crystals."
 	},
@@ -40,7 +40,7 @@ var planets = [
 		name: "sun",
 		image: "img/sun.png",
 		description: "The Sun, at the heart of our solar system, is a yellow dwarf star, a hot ball of glowing gases. Its gravity holds the solar system together, keeping everything from the biggest planets to the smallest particles of debris in its orbit. Electric currents in the Sun generate a magnetic field that is carried out through the solar system by the solar wind—a stream of electrically charged gas blowing outward from the Sun in all directions."
-	},s
+	},
 	{
 		name: "uranus",
 		image: "img/uranus.png",
@@ -56,14 +56,11 @@ var planets = [
 function searchGo() {
 	for (i = 0; i < planets[i].length; i++) {
 		var mainDiv = document.getElementById("addHere")
-		var h2 = document.createElement("h1")
+		var h2 = document.createElement("h2")
+		var name = planets[i].name
+		var nameText = document.createTextNode(name)
 			mainDiv.appendChild(h2)
-		var imgDiv. = document.createElement("imgDiv")
-			mainDiv.appendChild(imgDiv)
-		var imgPlanet = document.createElement("img")
-			imgDiv.appendChild(imgPlanet)
-		var planetText = document.createElement("p")
-			mainDiv.appendChild("planetText")
+			h2.appendChild(nameText)
 	}
 }
 
