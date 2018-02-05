@@ -65,6 +65,15 @@ function searchGo() {
 			var nameText = document.createTextNode(name)
 				h2.appendChild(nameText)
 				mainDiv.appendChild(h2)
+			var planetsImg = document.createElement("img")
+				planetsImg.setAttribute("src", planets[i].image)
+				mainDiv.appendChild(planetsImg)
+
+			var p = document.createElement("p")
+			var description = planets[i].description
+			var descriptionText = document.createTextNode(description)
+				p.appendChild(descriptionText)
+				mainDiv.appendChild(p)
 		}
 	}
 }
