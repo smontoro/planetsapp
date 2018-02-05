@@ -57,7 +57,7 @@ function searchGo() {
 	//collect input
 	var userInput = document.getElementById("userInput").value
 	//loops though planets
-	for (i = 0; i < planets[i].length; i++) {
+	for (i = 0; i < planets.length; i++) {
 		if (userInput.toLowerCase() === planets[i].name) {
 			var mainDiv = document.getElementById("addHere")
 			var h2 = document.createElement("h2")
