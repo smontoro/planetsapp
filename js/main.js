@@ -56,14 +56,15 @@ var planets = [
 function searchGo() {
 	//collect input
 	var userInput = document.getElementById("userInput").value
-	var mainDiv = document.getElementById("addHere")
-	var h2 = document.createElement("h2")
-		mainDiv.appendChild(h2)
-
 	//loops though planets
 	for (i = 0; i < planets[i].length; i++) {
 		if (userInput.toLowerCase() === planets[i].name) {
-			h2.innerHtml = planets[i].name
+			var mainDiv = document.getElementById("addHere")
+			var h2 = document.createElement("h2")
+			var name = planets[i].name
+			var nameText = document.createTextNode(name)
+				h2.appendChild(nameText)
+				mainDiv.appendChild(h2)
 		}
 	}
 }
