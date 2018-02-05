@@ -54,17 +54,20 @@ var planets = [
 ]
 
 function searchGo() {
+	//collect input
+	var userInput = document.getElementById("userInput").value
+	//loops though planets
 	for (i = 0; i < planets[i].length; i++) {
-		var mainDiv = document.getElementById("addHere")
-		var h2 = document.createElement("h2")
-		var name = planets[i].name
-		var nameText = document.createTextNode(name)
-			mainDiv.appendChild(h2)
-			h2.appendChild(nameText)
+		if (userInput.toLowerCase() === planets[i].name) {
+			var mainDiv = document.getElementById("here")
+			var h2 = document.createElement("h2")
+			var name = planets[i].name
+			var nameText = document.createTextNode(name)
+				h2.appendChild(nameText)
+				mainDiv.appendChild(h2)
+		}
 	}
 }
-
-
 
 
 
