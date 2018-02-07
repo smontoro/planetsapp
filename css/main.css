@@ -16,6 +16,7 @@ h2 {
 	top: 60%;
 	left: 52%;
 	font-family:'Aldrich', sans-serif;
+	text-transform: uppercase;
 }
 
 p {
@@ -29,6 +30,16 @@ p {
 
 form {
 	float: right;
+}
+
+input {
+	width: 300px;
+	padding: 8px;
+}
+
+button {
+	padding: 8px 10px;
+	font-size: 12px;
 }
 
 .neon {
@@ -70,14 +81,7 @@ form {
 	filter: blur(40px);
 }
 
-#userInput {
-	padding: 5px;
-	width: 200px;
-}
 
-h2 {
-	text-transform: uppercase;
-}
 
 
 
