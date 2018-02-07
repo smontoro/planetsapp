@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Quicksand');
+@import url('https://fonts.googleapis.com/css?family=Aldrich');
 
 body {
 	margin: 0;
@@ -13,14 +14,21 @@ h2, p {
 h2 {
 	position: absolute;
 	top: 60%;
-	left: 50%;
+	left: 52%;
+	font-family:'Aldrich', sans-serif;
 }
 
 p {
 	position: absolute;
-	top: 65%;
-	left: 50%;
-	width: 30%;
+	top: 68%;
+	left: 52%;
+	width: 35%;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 22px;
+}
+
+form {
+	float: right;
 }
 
 .neon {
