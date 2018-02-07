@@ -54,8 +54,10 @@ var planets = [
 ]
 
 function searchGo() {
+
 	//collect input
 	var userInput = document.getElementById("userInput").value
+	document.getElementById('addHere').innerHTML = '';
 	//loops though planets
 	for (i = 0; i < planets.length; i++) {
 		if (userInput.toLowerCase() === planets[i].name) {
@@ -74,6 +76,7 @@ function searchGo() {
 			var descriptionText = document.createTextNode(description)
 				p.appendChild(descriptionText)
 				mainDiv.appendChild(p)
+
 		}
 	}
 }
