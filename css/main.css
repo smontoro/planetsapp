@@ -10,6 +10,18 @@ h2, p {
 	color: white;
 }
 
+h2 {
+	position: absolute;
+	top: 60%;
+	left: 50%;
+}
+
+p {
+	position: absolute;
+	top: 65%;
+	left: 50%;
+	width: 30%;
+}
 
 .neon {
 	position: absolute;
@@ -55,7 +67,9 @@ h2, p {
 	width: 200px;
 }
 
-
+h2 {
+	text-transform: uppercase;
+}
 
 
 
